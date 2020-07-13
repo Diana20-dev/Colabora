@@ -6,5 +6,5 @@ Editando el index
 
 Colaboradores
 
-    1.- Diana Karen Parra Sosa 
-    2.- ...
+    1.- Diana Karen Parra Sosa --> header y footer
+    2.- ...                     -> contenido
