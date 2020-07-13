@@ -2,6 +2,8 @@ Este es un proyecto para prueba de nuevos comandos de git
 
 consiste en una página hecha en en bootstrap
 
+Editando el index 
+
 Colaboradores
 
     1.- Diana Karen Parra Sosa 
