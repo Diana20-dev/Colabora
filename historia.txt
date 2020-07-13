@@ -7,4 +7,4 @@ Editando el index
 Colaboradores
 
     1.- Diana Karen Parra Sosa --> header y footer
-    2.- ...                     -> contenido
+    2.- UsuarioDianaUTT     -> contenido
