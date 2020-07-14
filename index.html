@@ -45,18 +45,36 @@
           </nav>
     </header>
     <main class="container">
-        En el contenido se tendra un slider y una galeria 
-        <h2>Contenido principal</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non faucibus augue, eu malesuada felis. Vestibulum 
-        vulputate molestie dignissim. Nulla at sapien eu ligula pulvinar feugiat. Morbi velit nibh, elementum non nibh eu, 
-        blandit aliquam lacus. Nam consectetur velit non tortor dictum, eu pulvinar nisl hendrerit. Curabitur vel faucibus sem, 
-        venenatis ullamcorper odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; </p>
-        <hr>
-        <p> Sed 
-        nec vestibulum ex, nec sodales nulla. Vestibulum dapibus nulla a elementum varius. Duis ut aliquet ligula, vitae mattis 
-        risus. Vivamus aliquet semper ex vitae semper. Proin pulvinar mauris finibus molestie laoreet. Vivamus non quam pharetra, 
-        varius urna eget, varius nunc. Mauris tempor metus in augue accumsan lacinia. Mauris tempus ipsum in dui molestie fringilla.</p>
+        <div class="row">
+            <div class="col">
+                <div id="slider" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/img2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="container">
         <p> Este es el footer</p> 
